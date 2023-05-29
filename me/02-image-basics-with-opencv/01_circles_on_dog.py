@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 
-img = cv.imread('../course/DATA/dog_backpack.jpg')
+img = cv.imread('../../course/DATA/dog_backpack.jpg')
 
 def draw_circle(event, x, y, flags, params):
   
